@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+}
+
+<div class="crumb_navigation"> Navigation: @Html.ActionLink("Home", "index", "Home") &lt; <span class="current">Category name</span> </div>
+<div class="title_box">Special Products</div>
+<div class="border_box">
+    <div class="product_title">@Html.ActionLink("Motorola 156 MX-VL", "details", "Home")</div>
+    <div class="product_img"><img src="images/laptop.png" alt="" border="0" /></div>
+    <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+</div>
+<div class="title_box">Newsletter</div>
+<div class="border_box">
+    <input type="text" name="newsletter" class="newsletter_input" value="your email" />
+    <a href="#" class="join">join</a>
+</div>
